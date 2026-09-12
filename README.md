@@ -347,3 +347,4 @@ config.cpp
 ## Mục đích
 
 Project được phát triển cho hệ thống **UAV Speaker**, phục vụ việc truyền và phát âm thanh từ máy gửi đến thiết bị loa trên UAV thông qua mạng IP.
+# UAV_Speaker_Receiver
