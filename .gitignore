@@ -5,4 +5,4 @@
 build/
 
 # Private config
-src/config/config.cpp.vscode/
+/config.cpp
