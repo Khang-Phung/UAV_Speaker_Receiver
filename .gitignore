@@ -1,0 +1,8 @@
+# VS Code
+.vscode/
+
+# CMake
+build/
+
+# Private config
+src/config/config.cpp.vscode/

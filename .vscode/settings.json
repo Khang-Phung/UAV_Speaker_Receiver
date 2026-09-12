@@ -1,0 +1,31 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/khang/demo_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages",
+        "/home/khang/demo_ws/build/ros2_aruco",
+        "/home/khang/demo_ws/install/ros2_aruco/lib/python3.10/site-packages",
+        "/home/khang/demo_ws/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/khang/demo_ws/build/example_mode_with_rclpy_py",
+        "/home/khang/demo_ws/install/example_mode_with_rclpy_py/lib/python3.10/site-packages",
+        "/home/khang/demo_ws/build/example_mode_goto_py",
+        "/home/khang/demo_ws/install/example_mode_goto_py/lib/python3.10/site-packages",
+        "/home/khang/demo_ws/install/px4_ros2_py/local/lib/python3.10/dist-packages",
+        "/home/khang/demo_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/khang/demo_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages",
+        "/home/khang/demo_ws/build/ros2_aruco",
+        "/home/khang/demo_ws/install/ros2_aruco/lib/python3.10/site-packages",
+        "/home/khang/demo_ws/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/khang/demo_ws/build/example_mode_with_rclpy_py",
+        "/home/khang/demo_ws/install/example_mode_with_rclpy_py/lib/python3.10/site-packages",
+        "/home/khang/demo_ws/build/example_mode_goto_py",
+        "/home/khang/demo_ws/install/example_mode_goto_py/lib/python3.10/site-packages",
+        "/home/khang/demo_ws/install/px4_ros2_py/local/lib/python3.10/dist-packages",
+        "/home/khang/demo_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

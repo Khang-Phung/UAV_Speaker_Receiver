@@ -1,0 +1,3 @@
+/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build/CMakeFiles/receiver.dir
+/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build/CMakeFiles/edit_cache.dir
+/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build/CMakeFiles/rebuild_cache.dir

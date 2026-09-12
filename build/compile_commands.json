@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/receiver.dir/main.cpp.o -c /home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/main.cpp",
+  "file": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/main.cpp"
+},
+{
+  "directory": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/receiver.dir/Receiver.cpp.o -c /home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/Receiver.cpp",
+  "file": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/Receiver.cpp"
+},
+{
+  "directory": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/receiver.dir/UDP.cpp.o -c /home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/UDP.cpp",
+  "file": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/UDP.cpp"
+},
+{
+  "directory": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/receiver.dir/AES.cpp.o -c /home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/AES.cpp",
+  "file": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/AES.cpp"
+},
+{
+  "directory": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/receiver.dir/Opus.cpp.o -c /home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/Opus.cpp",
+  "file": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/Opus.cpp"
+},
+{
+  "directory": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/receiver.dir/Jitter.cpp.o -c /home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/Jitter.cpp",
+  "file": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/Jitter.cpp"
+},
+{
+  "directory": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/receiver.dir/UART.cpp.o -c /home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/UART.cpp",
+  "file": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/UART.cpp"
+},
+{
+  "directory": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -o CMakeFiles/receiver.dir/config.cpp.o -c /home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/config.cpp",
+  "file": "/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/config.cpp"
+}
+]
