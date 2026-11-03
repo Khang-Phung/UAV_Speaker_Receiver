@@ -14,7 +14,7 @@ void JitterBuffer::init(int startPackets)
     _expectedSeq = 0;
 }
 
-bool JitterBuffer::push(
+int JitterBuffer::push(
     const uint8_t *data,
     int len)
 {
@@ -34,11 +34,23 @@ bool JitterBuffer::push(
     // First 4 bytes = sequence number
     // =========================================
     uint32_t seq;
-
+    uint8_t type;
     std::memcpy(
         &seq,
         data,
         sizeof(seq));
+    
+    std::memcpy(
+        &type,
+        data + 11,
+        sizeof(type)
+    );
+
+    if (type)
+    {
+        return 2;
+    }
+
 
     // =========================================
     // Sender restart
@@ -209,6 +221,7 @@ int JitterBuffer::pop(
     // =========================================
     if (!_started)
     {
+
         return 0;
     }
     // =========================================
@@ -316,4 +329,9 @@ int JitterBuffer::pop(
     }
 
     return 0;
+}
+
+int JitterBuffer:: getCount()
+{
+        return _count;
 }

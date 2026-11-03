@@ -11,7 +11,12 @@ public:
 
     uint8_t* getBuffer();
 
+    void setAlive();
+    
+    bool isAlive();
+
+
 private:
     uint8_t _rxBuffer[UDP_BUFFER_SIZE];
-
+    bool _alive;
 };

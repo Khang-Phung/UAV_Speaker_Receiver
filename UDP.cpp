@@ -40,19 +40,6 @@ bool UDP::init(uint16_t port)
         perror("setsockopt SO_RCVBUF");
     }
 
-    // Check actual receive buffer
-    socklen_t optlen = sizeof(rcvbuf);
-
-    if (getsockopt(
-            sock,
-            SOL_SOCKET,
-            SO_RCVBUF,
-            &rcvbuf,
-            &optlen) == 0)
-    {
-        // printf("SO_RCVBUF = %d\n", rcvbuf);
-    }
-
     // Receive timeout: 10 ms
     struct timeval tv{};
 
@@ -132,4 +119,16 @@ int UDP::receive(
 uint8_t* UDP::getBuffer()
 {
     return _rxBuffer;
+}
+
+void UDP::setAlive()
+{
+    _alive = true;
+}
+
+bool UDP::isAlive()
+{   
+    bool temp = _alive;
+    _alive = false;
+    return temp;
 }

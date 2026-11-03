@@ -1,0 +1,39 @@
+Chạy build:
+
+cd ~/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build
+và
+./receiver
+
+Hoặc
+/home/khang/CT_UAV/Project_Speaker/UAV_Speaker_Receiver/build/receiver 
+
+Console log:
+
+    UAV Speaker Receiver
+---------------------------
+UDP port listen: xxxx
+IP Address (Sender chọn IP VPN):
+- xx.x.xx.xx
+- 100.xxx.xx.xxx
+UART initialized: Connected!!!
+---------------------------
+WAITING FOR SENDER START
+TCP task started
+Waiting for TCP client...
+
+Checklist
+-Kiểm tra các IP 
+-Bắt buộc cổng Uart phải connected
+-Đợi sender connect vào
+-Hiển thị client connected 
+
+-Jitter start với seq = 0 là báo hiệu bắt đầu truyền âm thanh
+
+
+-Lỗi JB RESYNC khi seq mới đến lớn hơn seq mong đợi một khoảng lớn
+ - Do uart không nhận
+ - Do bắt đầu lại với seq =0
+
+Kiểm tra đường truyền mạng và netbird khi:
+-Lỗi JB full khi jitter buffer bị đầy mà không được truyền đi
+-Lỗi Missing packet khi packet mong đợi không đến sau một khoảng thời gian

@@ -14,8 +14,9 @@ class JitterBuffer
 {
 public:
     void init(int startPackets);
+    
 
-    bool push(
+    int push(
         const uint8_t* data,
         int len
     );
@@ -23,6 +24,8 @@ public:
     int pop(
         JitterPacket* pkt
     );
+
+    int getCount();
 
 private:
     JitterPacket _packetBuffer[JB_SIZE];

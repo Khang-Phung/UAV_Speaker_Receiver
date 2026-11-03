@@ -43,6 +43,7 @@ bool UART::init()
     if (uartFd < 0)
     {
         perror("UART open failed");
+        _connect = false;
         return false;
     }
 
@@ -122,12 +123,6 @@ bool UART::init()
 
         return false;
     }
-
-
-    printf(
-        "UART initialized: %s\n",
-        "Connected!!!"
-    );
 
     return true;
 }
@@ -323,4 +318,29 @@ return write(
 );
 
 
+}
+
+bool UART::isConnected() const
+{
+
+    return _connect;
+}
+
+bool UART::checkConnection()
+{
+    auto now = std::chrono::steady_clock::now();
+
+    if (uartFd < 0 &&
+        now - last_uart_retry >= std::chrono::seconds(2))
+    {
+        last_uart_retry = now;
+
+        if (init())
+        {
+            printf("UART reconnected\n");
+            return true;
+        }
+    }
+
+    return uartFd >= 0;
 }

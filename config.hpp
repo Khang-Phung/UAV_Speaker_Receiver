@@ -20,6 +20,8 @@ constexpr uint8_t FRAME_TYPE_AUDIO     = 0x01;
 // =====================
 constexpr int UDP_PORT = 5000;
 
+constexpr int TCP_PORT = 5001;
+
 constexpr int UDP_BUFFER_SIZE = 1500;
 
 // =====================

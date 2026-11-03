@@ -14,6 +14,7 @@ add_executable(receiver
     Jitter.cpp
     UART.cpp
     config.cpp
+    TCP.cpp
 )
 
 target_link_libraries(receiver

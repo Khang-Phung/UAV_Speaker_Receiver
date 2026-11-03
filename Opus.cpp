@@ -69,7 +69,7 @@ void Opus::low_volume()
 {
     for (int i = 0; i < FRAME_SIZE; i++)
     {
-        _pcmBuffer[i] /= 2;
+        _pcmBuffer[i] /= 1;
     }
 }
 
