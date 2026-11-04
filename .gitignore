@@ -5,4 +5,4 @@
 build/
 
 # Private config
-/config.cpp
+#/config.cpp
